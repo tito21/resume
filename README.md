@@ -6,3 +6,6 @@ pandoc and wkhtmltopdf.
 Things I would like to add:
    - A dark mode
    - A short description of myself and goals
+   - Add side projects
+   - Include thesis title
+   - Make spanish version
