@@ -1,0 +1,52 @@
+
+:root {
+--prussian-blue: #052f5fff;
+--blue-sapphire: #005377ff;
+--green-munsell: #06a77dff;
+--dark-khaki: #d5c67aff;
+--marigold: #f1a208ff;
+}
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  font-size: 3em;
+  border-bottom: 3px solid var(--green-munsell);
+}
+
+h1 {
+  margin: 0.5em 0 0.5em 0;
+}
+
+h2 {
+  margin: 1em 0 1em 0;
+}
+
+a {
+  color: var(--green-munsell);
+}
+
+.description {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2em;
+}
+
+
+.sidebar {
+  width: 18em;
+  margin: 0 0 0 0;
+  position: absolute;
+}
+
+.main {
+  width: -1em;
+  margin: 0 0 0 18em;
+  padding-left: 1em;
+  border-left: 3px solid var(--green-munsell);
+}
