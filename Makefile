@@ -10,5 +10,8 @@ text: source.md
 pdf: style.css source.md
 	pandoc source.md --pdf-engine wkhtmltopdf --css style.css -o CV.pdf
 
-all: html text pdf
+docx: source.md
+	pandoc source.md -o CV.docx
+
+all: html text pdf docx
 
