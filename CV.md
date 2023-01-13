@@ -3,6 +3,12 @@ Alberto Di Biase
 
 MSc. Electrical Engineering | ✉️<asdibiase@uc.cl> | 📞️+56 9 7758 1497
 
+Master in Electrical Engineer with an focus in magnetic resonance
+imaging (MRI) and medical imaging. I have experience working on deep
+learning research to accelerate and improve MRI. Currently I work as a
+research engineer at the iHealth Millennium Institute for Intelligent
+Healthcare Engineer in Santiago Chile
+
 ## Education 🎓️
 
 -   June 2020 Bs in Biomedical Engineering. Pontificia Universidad
@@ -12,7 +18,8 @@ MSc. Electrical Engineering | ✉️<asdibiase@uc.cl> | 📞️+56 9 7758 1497
     Católica de Chile
 
 -   November 2022 Master in Engineering Science. Pontificia Universidad
-    Católica de Chile
+    Católica de Chile. Thesis: Intensity-based Deep Learning for SPION
+    concentration estimation in MR imaging
 
 ## Skills
 
@@ -37,10 +44,11 @@ MSc. Electrical Engineering | ✉️<asdibiase@uc.cl> | 📞️+56 9 7758 1497
 ## Work History
 
 -   **Research Experience**
-    -   2022 - present 🌐️ Resarch Engineer, [iHealth Millenium Institude
-        for Inteligent Healthcare Engineer](http://i-health.cl/)
+    -   2022 - present 🌐️ Resarch Engineer, [iHealth Millennium
+        Institute for Intelligent Healthcare
+        Engineer](http://i-health.cl/)
         -   Supervisor: Claudia Prieto Ph. D
-        -   Reconstraction of parametric maps from undersample MRI using
+        -   Reconstruction of parametric maps from undersample MRI using
             physics informed neural networks.
     -   Summer 2020 🌐️ Tokio, Japan, Sekino Lab, University of Tokyo
         -   Supervisor: Masaki Sekino Ph. D
@@ -49,8 +57,8 @@ MSc. Electrical Engineering | ✉️<asdibiase@uc.cl> | 📞️+56 9 7758 1497
     -   2019 🌐️ [Biomedical Imaging
         Center](https://centroimagenesbiomedicas.uc.cl) PUC
         -   Supervisor: Pablo Irrarazaval, Ph. D
-        -   Application of deep learning to improve undersampled MRI.
-        -   Participation in the fastMRI challenge
+        -   Application of deep learning to improve undersampled MRI. +
+            Participation in the fastMRI challenge
             <https://fastmri.org>.
     -   Spring 2018 🌐️ [Biomedical Imaging
         Center](https://centroimagenesbiomedicas.uc.cl) PUC

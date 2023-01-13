@@ -20,7 +20,7 @@ header {
 }
 
 h1 {
-  margin: 0.5em 0 0.5em 0;
+  margin: 0.25em 0 0.25em 0;
 }
 
 h2 {
@@ -38,6 +38,10 @@ a {
   font-size: 2em;
 }
 
+.blur {
+  font-size: 0.75em;
+  text-align: left;
+}
 
 .sidebar {
   width: 18em;
