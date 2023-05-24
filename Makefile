@@ -1,6 +1,8 @@
 
+BROWSER=brave-browser
+
 html: style.css source.md
-	pandoc -s source.md --css style.css -o CV.html  
+	pandoc -s source.md --css style.css -o CV.html
 
 text: source.md
 	pandoc source.md -o tmp.md -t markdown_strict
@@ -8,7 +10,7 @@ text: source.md
 	rm tmp.md
 
 pdf: style.css source.md
-	pandoc source.md --pdf-engine wkhtmltopdf --css style.css -o CV.pdf
+	$(BROWSER) --headless --disable-gpu --print-to-pdf=CV.pdf file:///CV.html
 
 docx: source.md
 	pandoc source.md -o CV.docx
