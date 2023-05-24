@@ -42,6 +42,7 @@ estimation in MR imaging
 - Languages 🗣️
    + Spanish (native)
    + English (advance)
+   + German (learning)
 
 ## Links 🔗️
 - Github <https://github.com/tito21>
@@ -68,8 +69,7 @@ estimation in MR imaging
    PUC
         + Supervisor: Pablo Irrarazaval, Ph. D
         + Application of deep learning to improve undersampled MRI.
-	     + Participation in the fastMRI challenge
-	    <https://fastmri.org>.
+        + Participation in the fastMRI challenge <https://fastmri.org>.
 
    + Spring 2018 🌐️ [Biomedical Imaging Center](
    https://centroimagenesbiomedicas.uc.cl) PUC
@@ -95,9 +95,12 @@ estimation in MR imaging
 ## Publications and Conference presentations
 
 - Intensity-based Deep Learning for SPION concentration estimation in MR
-imaging, *1st Annual IIBM PhD. Symposium: “Advances in Biological and Medical
-Engineering”*. Santiago Chile, October 2022.
+imaging, *2023 ISMRM & ISMRT Annual Meeting & Exhibition*. Toronto Canada,
+June 2023.
 
+- Finding Optimal Regularization Parameter for Undersampled Reconstruction using
+Bayesian Optimization, *2023 ISMRM & ISMRT Annual Meeting & Exhibition*.
+Toronto Canada, June 2023.
 
 ---
 
