@@ -9,8 +9,8 @@ text: source.md
 	cat name.txt tmp.md > CV.md
 	rm tmp.md
 
-pdf: style.css source.md
-	$(BROWSER) --headless --disable-gpu --print-to-pdf=CV.pdf file:///CV.html
+pdf: html
+	$(BROWSER) --headless --disable-gpu --no-pdf-header-footer --print-to-pdf=CV.pdf "CV.html"
 
 docx: source.md
 	pandoc source.md -o CV.docx
