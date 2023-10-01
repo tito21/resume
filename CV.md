@@ -82,13 +82,20 @@ Healthcare Engineer in Santiago Chile
 
 ## Publications and Conference presentations
 
--   Intensity-based Deep Learning for SPION concentration estimation in
-    MR imaging, *2023 ISMRM & ISMRT Annual Meeting & Exhibition*.
-    Toronto Canada, June 2023.
+-   **Di Biase A.**, Liu S., Sekino M., & Irarrázabal P. Intensity-based
+    Deep Learning for SPION concentration estimation in MR imaging,
+    *2023 ISMRM & ISMRT Annual Meeting & Exhibition*. Toronto Canada,
+    June 2023.
 
--   Finding Optimal Regularization Parameter for Undersampled
-    Reconstruction using Bayesian Optimization, *2023 ISMRM & ISMRT
-    Annual Meeting & Exhibition*. Toronto Canada, June 2023.
+-   **Di Biase A.**, Botnar R. & Prieto C. Finding Optimal
+    Regularization Parameter for Undersampled Reconstruction using
+    Bayesian Optimization, *2023 ISMRM & ISMRT Annual Meeting &
+    Exhibition*. Toronto Canada, June 2023.
+
+-   della Maggiora, G., **Di Biase, A.**, Castillo-Passi, C., &
+    Irarrazaval, P. Attention Based Scale Recurrent Network for
+    Under-Sampled MRI Reconstruction. *2020 ISMRM & ISMRT Annual Meeting
+    & Exhibition*. Virtual, August 2020.
 
 ------------------------------------------------------------------------
 
