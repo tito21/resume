@@ -93,6 +93,10 @@ estimation in MR imaging
 
 ## Publications and Conference presentations
 
+- **Di Biase A.**, Schneider A., Botnar R. & Pietro C. Model based
+rEconstruction by Deep Algorithm unrolLing (MEDAL) for fast 3D whole-heart
+T2mapping *2024 ISMRM & ISMRT Annual Meeting & Exhibition*. Singapore, May 2024.
+
 - **Di Biase A.**, Liu S., Sekino M., & Irarrázabal P. Intensity-based Deep
 Learning for SPION concentration estimation in MR imaging, *2023 ISMRM & ISMRT
 Annual Meeting & Exhibition*. Toronto Canada, June 2023.
