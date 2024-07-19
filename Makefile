@@ -1,6 +1,6 @@
 
-# BROWSER=brave-browser
-BROWSER=start chrome # Shuld work on windows but for me is not working
+BROWSER=google-chrome
+# BROWSER=start chrome # Shuld work on windows but for me is not working
 
 html: style.css source.md
 	pandoc -s source.md --css style.css -o CV.html
@@ -11,7 +11,7 @@ text: source.md
 	rm tmp.md
 
 pdf: html
-	$(BROWSER) --headless --disable-gpu --print-to-pdf="CV.pdf" "CV.html"
+	$(BROWSER) --headless --no-pdf-header-footer --print-to-pdf="CV.pdf" "CV.html"
 
 docx: source.md
 	pandoc source.md -o CV.docx

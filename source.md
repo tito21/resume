@@ -93,6 +93,10 @@ estimation in MR imaging
 
 ## Publications and Conference presentations
 
+- **Di Biase A.**, Schneider A., Botnar R. & Pietro C. Model-based Deep Image
+Prior Reconstruction for iNAV-based 3D whole-heart T2 mapping. *Society for MR
+Angiography 36th Annual International Meeting*. Santiago Chile, November 2024
+
 - **Di Biase A.**, Schneider A., Botnar R. & Pietro C. Model based
 rEconstruction by Deep Algorithm unrolLing (MEDAL) for fast 3D whole-heart
 T2mapping *2024 ISMRM & ISMRT Annual Meeting & Exhibition*. Singapore, May 2024.
