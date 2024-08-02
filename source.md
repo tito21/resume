@@ -8,9 +8,8 @@ MSc. Electrical Engineering | ✉️<asdibiase@uc.cl> | 📞️+56 9 7758 1497
 ::: blur
 Master in Electrical Engineer with an focus in magnetic resonance
 imaging (MRI) and medical imaging. I have experience working on deep learning
-research to accelerate and improve MRI. Currently I work as a research engineer
-at the iHealth Millennium Institute for Intelligent Healthcare Engineer in
-Santiago Chile
+research to accelerate and improve MRI. Currently I work as a research assitant
+at Imperial College London.
 :::
 
 :::
@@ -54,7 +53,12 @@ estimation in MR imaging
 ## Work History
 
 - **Research Experience**
-   + 2022 - present 🌐️ Resarch Engineer, [iHealth Millennium Institute for
+   + 2024 - present 🌐️ Research Assistant, Imperial College London. Department of
+   Computing / Visual Information Processing
+        + Supervisor: Sonia Nielles-Vallespin Ph. D & Daniel Rueckert Ph. D
+        + Diffusion cardiac imaging.
+
+   + 2022 - 2024 🌐️ Research Engineer, [iHealth Millennium Institute for
    Intelligent Healthcare Engineer](http://i-health.cl/)
         + Supervisor: Claudia Prieto Ph. D
         + Reconstruction of parametric maps from undersample MRI using physics

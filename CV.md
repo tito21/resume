@@ -1,15 +1,17 @@
 Alberto Di Biase
 ================
 
-MSc. Electrical Engineering | ✉️<asdibiase@uc.cl> | 📞️+56 9 7758 1497
+MSc. Electrical Engineering |
+✉️<a href="mailto:asdibiase@uc.cl" class="email">asdibiase@uc.cl</a> |
+📞️+56 9 7758 1497
 
 Master in Electrical Engineer with an focus in magnetic resonance
 imaging (MRI) and medical imaging. I have experience working on deep
 learning research to accelerate and improve MRI. Currently I work as a
-research engineer at the iHealth Millennium Institute for Intelligent
-Healthcare Engineer in Santiago Chile
+research assitant at Imperial College London.
 
-## Education 🎓️
+Education 🎓️
+------------
 
 -   June 2020 Bs in Biomedical Engineering. Pontificia Universidad
     Católica de Chile
@@ -21,7 +23,8 @@ Healthcare Engineer in Santiago Chile
     Católica de Chile. Thesis: Intensity-based Deep Learning for SPION
     concentration estimation in MR imaging
 
-## Skills
+Skills
+------
 
 -   Software ⌨️
     -   MatLab
@@ -37,17 +40,25 @@ Healthcare Engineer in Santiago Chile
     -   English (advance)
     -   German (learning)
 
-## Links 🔗️
+Links 🔗️
+--------
 
--   Github <https://github.com/tito21>
--   Blog <https://tito21.github.io>
+-   Github
+    <a href="https://github.com/tito21" class="uri">https://github.com/tito21</a>
+-   Blog
+    <a href="https://tito21.github.io" class="uri">https://tito21.github.io</a>
 
-## Work History
+Work History
+------------
 
 -   **Research Experience**
-    -   2022 - present 🌐️ Resarch Engineer, [iHealth Millennium
-        Institute for Intelligent Healthcare
-        Engineer](http://i-health.cl/)
+    -   2024 - present 🌐️ Research Assistant, Imperial College London.
+        Department of Computing / Visual Information Processing
+        -   Supervisor: Sonia Nielles-Vallespin Ph. D & Daniel Rueckert
+            Ph. D
+        -   Diffusion cardiac imaging.
+    -   2022 - 2024 🌐️ Research Engineer, [iHealth Millennium Institute
+        for Intelligent Healthcare Engineer](http://i-health.cl/)
         -   Supervisor: Claudia Prieto Ph. D
         -   Reconstruction of parametric maps from undersample MRI using
             physics informed neural networks.
@@ -60,7 +71,7 @@ Healthcare Engineer in Santiago Chile
         -   Supervisor: Pablo Irrarazaval, Ph. D
         -   Application of deep learning to improve undersampled MRI.
         -   Participation in the fastMRI challenge
-            <https://fastmri.org>.
+            <a href="https://fastmri.org" class="uri">https://fastmri.org</a>.
     -   Spring 2018 🌐️ [Biomedical Imaging
         Center](https://centroimagenesbiomedicas.uc.cl) PUC
         -   Supervisor: Sergio Uribe, Ph. D
@@ -80,7 +91,13 @@ Healthcare Engineer in Santiago Chile
 
 ------------------------------------------------------------------------
 
-## Publications and Conference presentations
+Publications and Conference presentations
+-----------------------------------------
+
+-   **Di Biase A.**, Schneider A., Botnar R. & Pietro C. Model-based
+    Deep Image Prior Reconstruction for iNAV-based 3D whole-heart T2
+    mapping. *Society for MR Angiography 36th Annual International
+    Meeting*. Santiago Chile, November 2024
 
 -   **Di Biase A.**, Schneider A., Botnar R. & Pietro C. Model based
     rEconstruction by Deep Algorithm unrolLing (MEDAL) for fast 3D
@@ -104,12 +121,14 @@ Healthcare Engineer in Santiago Chile
 
 ------------------------------------------------------------------------
 
-## Extracurricular activities
+Extracurricular activities
+--------------------------
 
 -   **Browser Extension UCaccess**, Developer
     -   Allows easy and legal access to scientific papers through the
         university’s proxy server.
-    -   Code and extension: <https://github.com/tito21/UCaccess>
+    -   Code and extension:
+        <a href="https://github.com/tito21/UCaccess" class="uri">https://github.com/tito21/UCaccess</a>
 -   **Robotics**, Coach and Tutor 🤖️
     -   2016 - 2017 One week workshop for 12-13 year old kids. Each kid
         could build and program their own mobile robot using the Arduino
