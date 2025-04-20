@@ -17,41 +17,38 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Make release directory
+        run: mkdir -p release
+
       - name: Make .html
         uses: docker://pandoc/core
         with:
-          args: source.md --css style.css -o CV.html
+          args: source.md --css style.css -o release/CV.html
 
       - name: Make .docx
         uses: docker://pandoc/core
         with:
-          args: source.md -o CV.docx
+          args: source.md -o release/CV.docx
 
       - name: Make .md
         uses: docker://pandoc/core
         with:
             args: source.md -o tmp.md -t markdown_strict
-      - run: cat name.txt tmp.md > CV.md
+      - run: cat name.txt tmp.md > release/CV.md
       - run: rm tmp.md
 
       - name: Make .pdf
         uses: fifsky/html-to-pdf-action@master
         with:
           htmlFile: CV.html
-          outputFile: CV.pdf
+          outputFile: release/CV.pdf
           pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
 
   release:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - run: ls
       - name: Upload release assets
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.sha }}
-          files: |
-            CV.html
-            CV.docx
-            CV.md
-            CV.pdf
+          files: release/*
