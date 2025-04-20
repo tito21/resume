@@ -56,16 +56,18 @@ jobs:
       #     outputFile: release/CV.pdf
       #     pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
 
+      - uses: browser-actions/setup-chrome@v1
+        id: setup-chrome
+
       - name: Make .pdf
         run: |
-          sudo apt-get update
-          sudo apt-get install -y chromium-browser
-          chromium-browser --headless --disable-gpu --no-sandbox --virtual-time-budget=10000 \
-            --print-to-pdf=release/CV.pdf \
-            --print-to-pdf-no-header \
-            --no-pdf-header-footer \
-            --virtual-time-budget=10000 \
-            file://$GITHUB_WORKSPACE/release/CV.html
+          ${{ steps.setup-chrome.outputs.chrome-path }} \
+          --headless --disable-gpu --no-sandbox \
+          --print-to-pdf=$GITHUB_WORKSPACErelease/CV.pdf \
+          --print-to-pdf-no-header \
+          --no-pdf-header-footer \
+          --virtual-time-budget=10000 \
+          file://$GITHUB_WORKSPACE/release/CV.html
 
       # Upload the assets to the release
       - name: Upload release assets
