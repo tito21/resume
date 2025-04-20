@@ -58,5 +58,4 @@ jobs:
           body: |
             This is the release of my CV.
             You can find the files in the release section.
-          prerelease: true
           files: release/*
