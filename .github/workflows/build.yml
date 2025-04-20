@@ -49,12 +49,22 @@ jobs:
       - name: Debug Fonts
         run: fc-list | grep "Noto Color Emoji"
 
+      # - name: Make .pdf
+      #   uses: fifsky/html-to-pdf-action@master
+      #   with:
+      #     htmlFile: CV.html
+      #     outputFile: release/CV.pdf
+      #     pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+
       - name: Make .pdf
-        uses: fifsky/html-to-pdf-action@master
-        with:
-          htmlFile: CV.html
-          outputFile: release/CV.pdf
-          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser
+          chromium-browser --headless --disable-gpu --no-sandbox --virtual-time-budget=10000 \
+            --print-to-pdf=release/CV.pdf \
+            --print-to-pdf-no-header \
+            --virtual-time-budget=10000 \
+            file://$GITHUB_WORKSPACE/release/CV.html
 
       # Upload the assets to the release
       - name: Upload release assets
