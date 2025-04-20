@@ -1,12 +1,20 @@
 In this repository you can find my resume and the style files used to create it.
 
-To compile a pdf run `make pdf` and a web version with `make html`. It requires
-pandoc and a chrome based browser. Running `make all` builds the resume in the
-formats above plus .docx and plain text (markdown).
-
 Things I would like to add:
    - A dark mode
    - ✅ A short description of myself and goals
    - Add side projects
    - ✅ Include thesis title
-   - Make spanish version
+   - Make Spanish version
+
+# Building
+
+Github actions should take care of building, an `.html`, `.pdf`, `.md` and `.docx` as ralease artifacts.
+
+To force a reease follow this steps:
+ 1. Commit your changes
+ 2. Add a tag with `git tag "v{version-number}" main`
+ 3. Then push the tag to github `git push origin v{version-number}`
+
+To build locally use `make`. To compile a pdf run `make pdf` and a web version with `make html`. It requires pandoc and
+a chrome based browser. Running `make all` builds the resume in the formats above plus .docx and plain text (markdown).
