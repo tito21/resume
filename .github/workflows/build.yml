@@ -8,9 +8,8 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
+    tags:
+      - 'v*'
   workflow_dispatch:
 
 jobs:
@@ -60,8 +59,7 @@ jobs:
       - name: Upload release assets
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ env.COMMIT_SHORT_SHA }}
-          release_name: CV
+          name: CV
           body: |
             This is the release of my CV.
             You can find the files in the release section.
