@@ -1,0 +1,56 @@
+
+name: Build resume
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Make .html
+        uses: docker://pandoc/core
+        with:
+          args: source.md --css style.css -o CV.html
+
+      - name: Make .docx
+        uses: docker://pandoc/core
+        with:
+          args: source.md -o CV.docx
+
+      - name: Make .md
+        uses: docker://pandoc/core
+        with:
+            args: source.md -o tmp.md -t markdown_strict
+      - run: cat name.txt tmp.md > CV.md
+      - run: rm tmp.md
+
+      - name: Make .pdf
+        uses: fifsky/html-to-pdf-action@master
+        with:
+          htmlFile: CV.html
+          outputFile: CV.pdf
+          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+
+  release:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Upload release assets
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.head_ref }}.${{ github.sha }}
+          files: |
+            CV.html
+            CV.docx
+            CV.md
+            CV.pdf
