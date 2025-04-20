@@ -19,12 +19,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Set short git commit SHA
-        id: vars
-        run: |
-          calculatedSha=$(git rev-parse --short ${{ github.sha }})
-          echo "COMMIT_SHORT_SHA=$calculatedSha" >> $GITHUB_ENV
-
       - name: Make release directory
         run: mkdir -p release
 
@@ -52,10 +46,7 @@ jobs:
           outputFile: release/CV.pdf
           pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
 
-  release:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
+      # Upload the assets to the release
       - name: Upload release assets
         uses: softprops/action-gh-release@v2
         with:
