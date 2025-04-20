@@ -63,6 +63,7 @@ jobs:
           chromium-browser --headless --disable-gpu --no-sandbox --virtual-time-budget=10000 \
             --print-to-pdf=release/CV.pdf \
             --print-to-pdf-no-header \
+            --no-pdf-header-footer \
             --virtual-time-budget=10000 \
             file://$GITHUB_WORKSPACE/CV.html
 
