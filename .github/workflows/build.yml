@@ -37,25 +37,6 @@ jobs:
       - run: cat name.txt tmp.md > release/CV.md
       - run: rm tmp.md
 
-      # - name: Install emoji font
-      #   run: |
-      #     sudo apt-get update
-      #     sudo apt-get install -y fonts-noto-color-emoji
-
-      # - name: Update font cache
-      #   run: |
-      #     sudo fc-cache -fv
-
-      # - name: Debug Fonts
-      #   run: fc-list | grep "Noto Color Emoji"
-
-      # - name: Make .pdf
-      #   uses: fifsky/html-to-pdf-action@master
-      #   with:
-      #     htmlFile: CV.html
-      #     outputFile: release/CV.pdf
-      #     pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
-
       - uses: browser-actions/setup-chrome@v1
         id: setup-chrome
 
