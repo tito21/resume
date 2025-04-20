@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: 'Noto Color Emoji';
-  src: url(' /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf') format('truetype');
+  src: url('/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf') format('truetype');
 }
 
 body {
