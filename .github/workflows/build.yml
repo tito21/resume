@@ -46,6 +46,9 @@ jobs:
         run: |
           sudo fc-cache -fv
 
+      - name: Debug Fonts
+        run: fc-list | grep "Noto Color Emoji"
+
       - name: Make .pdf
         uses: fifsky/html-to-pdf-action@master
         with:
