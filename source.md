@@ -3,7 +3,7 @@ title: Alberto Di Biase
 ---
 
 ::: description
-MSc. Electrical Engineering | ✉️<asdibiase@uc.cl> | 📞️+56 9 7758 1497
+MSc. Electrical Engineering | ✉️<asdibiase@uc.cl> | 📞️+56 9 7758 1497 | 📞️ +44 7777 625590
 
 ::: blur
 Master in Electrical Engineer with an focus in magnetic resonance
