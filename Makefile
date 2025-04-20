@@ -3,7 +3,7 @@ BROWSER=google-chrome
 # BROWSER=start chrome # Shuld work on windows but for me is not working
 
 html: style.css source.md
-	pandoc -s source.md --css style.css -o CV.html
+	pandoc -s source.md --css style.css --embed-resources --standalone -o CV.html
 
 text: source.md
 	pandoc source.md -o tmp.md -t markdown_strict
