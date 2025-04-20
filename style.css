@@ -7,15 +7,10 @@
 --marigold: #f1a208ff;
 }
 
-@font-face {
-  font-family: 'Noto Color Emoji';
-  src: url('/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf') format('truetype');
-}
-
 body {
   width: 1000px;
   margin: 0 auto;
-  font-family: 'Noto Color Emoji', Tahoma, sans-serif;
+  font-family: Tahoma, sans-serif;
 }
 
 header {
