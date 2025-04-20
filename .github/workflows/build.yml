@@ -64,7 +64,7 @@ jobs:
             --print-to-pdf=release/CV.pdf \
             --print-to-pdf-no-header \
             --virtual-time-budget=10000 \
-            file://$GITHUB_WORKSPACE/release/CV.html
+            file://$GITHUB_WORKSPACE/CV.html
 
       # Upload the assets to the release
       - name: Upload release assets
