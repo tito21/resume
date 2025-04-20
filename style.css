@@ -10,7 +10,7 @@
 body {
   width: 1000px;
   margin: 0 auto;
-  font-family: "Noto Color Emoji", sans-serif;
+  font-family: 'Noto Color Emoji', Tahoma, sans-serif;
 }
 
 header {
