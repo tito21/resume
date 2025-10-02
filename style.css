@@ -52,7 +52,7 @@ a {
 
 .main {
   width: -1em;
-  margin: 0 0 0 18em;
+  margin: 0 0 0 20em;
   padding-left: 1em;
   border-left: 3px solid var(--green-munsell);
 }

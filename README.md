@@ -6,6 +6,7 @@ Things I would like to add:
    - Add side projects
    - ✅ Include thesis title
    - Make Spanish version
+   - Make use better CSS layout
 
 # Building
 

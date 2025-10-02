@@ -10,6 +10,9 @@ on:
       - 'v*'
   workflow_dispatch:
 
+env:
+  CITE_ARGS: --citeproc --bibliography=references.bib --csl=IEEE_cv.csl
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,17 +26,17 @@ jobs:
       - name: Make .html
         uses: docker://pandoc/core
         with:
-          args: source.md --css style.css --embed-resources --standalone -o release/CV.html
+          args: source.md --css style.css --embed-resources --standalone $CITE_ARGS -o release/CV.html
 
       - name: Make .docx
         uses: docker://pandoc/core
         with:
-          args: source.md -o release/CV.docx
+          args: source.md $CITE_ARGS -o release/CV.docx
 
       - name: Make .md
         uses: docker://pandoc/core
         with:
-            args: source.md -o tmp.md -t markdown_strict
+            args: source.md -o tmp.md -t markdown_strict $CITE_ARGS
       - run: cat name.txt tmp.md > release/CV.md
       - run: rm tmp.md
 

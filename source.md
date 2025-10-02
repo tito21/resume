@@ -1,15 +1,17 @@
 ---
 title: Alberto Di Biase
+nocite: |
+   @*
 ---
 
 ::: description
 MSc. Electrical Engineering | ✉️<asdibiase@uc.cl> | 📞️+56 9 7758 1497 | 📞️ +44 7777 625590
 
 ::: blur
-Master in Electrical Engineer with an focus in magnetic resonance
+PhD student at Imperial College London with an focus in magnetic resonance
 imaging (MRI) and medical imaging. I have experience working on deep learning
-research to accelerate and improve MRI. Currently I work as a research assitant
-at Imperial College London.
+research to accelerate and improve MRI. Currently I work cardiac diffusion tensor
+imaging.
 :::
 
 :::
@@ -17,14 +19,16 @@ at Imperial College London.
 ::: sidebar
 ## Education 🎓️
 
-- June 2020 Bs in Biomedical Engineering. Pontificia Universidad Católica de
-Chile
-
-- November 2022 Electrical Engineering. Pontificia Universidad Católica de Chile
+- September 2025 - Current  student PhD Imperial College London
 
 - November 2022 Master in Engineering Science. Pontificia Universidad Católica
 de Chile. Thesis: Intensity-based Deep Learning for SPION concentration
 estimation in MR imaging
+
+- November 2022 Electrical Engineering. Pontificia Universidad Católica de Chile
+
+- June 2020 Bs in Biomedical Engineering. Pontificia Universidad Católica de
+Chile
 
 ## Skills
 
@@ -97,25 +101,9 @@ estimation in MR imaging
 
 ## Publications and Conference presentations
 
-- **Di Biase A.**, Schneider A., Botnar R. & Pietro C. Model-based Deep Image
-Prior Reconstruction for iNAV-based 3D whole-heart T2 mapping. *Society for MR
-Angiography 36th Annual International Meeting*. Santiago Chile, November 2024
+::: {#refs}
 
-- **Di Biase A.**, Schneider A., Botnar R. & Pietro C. Model based
-rEconstruction by Deep Algorithm unrolLing (MEDAL) for fast 3D whole-heart
-T2mapping *2024 ISMRM & ISMRT Annual Meeting & Exhibition*. Singapore, May 2024.
-
-- **Di Biase A.**, Liu S., Sekino M., & Irarrázabal P. Intensity-based Deep
-Learning for SPION concentration estimation in MR imaging, *2023 ISMRM & ISMRT
-Annual Meeting & Exhibition*. Toronto Canada, June 2023.
-
-- **Di Biase A.**, Botnar R. & Prieto C. Finding Optimal Regularization
-Parameter for Undersampled Reconstruction using Bayesian Optimization, *2023
-ISMRM & ISMRT Annual Meeting & Exhibition*. Toronto Canada, June 2023.
-
-- della Maggiora, G., **Di Biase, A.**, Castillo-Passi, C., & Irarrazaval, P.
-Attention Based Scale Recurrent Network for Under-Sampled MRI Reconstruction.
-*2020 ISMRM & ISMRT Annual Meeting & Exhibition*. Virtual, August 2020.
+:::
 
 ---
 
