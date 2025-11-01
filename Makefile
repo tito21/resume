@@ -1,7 +1,13 @@
 
-BROWSER=/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
-# BROWSER=google-chrome
-# BROWSER=start chrome # Shuld work on windows but for me is not working
+
+UNAME_S := $(shell uname -s)
+ifeq ($(UNAME_S),Linux)
+	BROWSER=chromium-browser
+endif
+ifeq ($(UNAME_S),Darwin)
+	BROWSER=/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
+endif
+# BROWSER=start chrome # Should work on windows but for me is not working
 
 BIB=references.bib
 CSL=IEEE_cv.csl
