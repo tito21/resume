@@ -5,12 +5,14 @@ nocite: |
 ---
 
 ::: description
-MSc. Electrical Engineering | ✉️<asdibiase@uc.cl> | 📞️+56 9 7758 1497 | 📞️ +44 7777 625590
+MSc. Electrical Engineering & Ph.D. student at Imperial College London
+
+✉️<asdibiase@uc.cl> | 📞️+56 9 7758 1497 | 📞️ +44 7777 625590
 
 ::: blur
-PhD student at Imperial College London with an focus in magnetic resonance
+Ph.D. student at Imperial College London with an focus in magnetic resonance
 imaging (MRI) and medical imaging. I have experience working on deep learning
-research to accelerate and improve MRI. Currently I work cardiac diffusion tensor
+research to accelerate and improve MRI. Currently, I work cardiac diffusion tensor
 imaging.
 :::
 
@@ -19,7 +21,7 @@ imaging.
 ::: sidebar
 ## Education 🎓️
 
-- September 2025 - Current  student PhD Imperial College London
+- September 2025 - Current student Ph.D. Imperial College London
 
 - November 2022 Master in Engineering Science. Pontificia Universidad Católica
 de Chile. Thesis: Intensity-based Deep Learning for SPION concentration
@@ -57,37 +59,37 @@ Chile
 ## Work History
 
 - **Research Experience**
-   + 2024 - present 🌐️ Research Assistant, Imperial College London. Department of
-   Computing / Visual Information Processing
-        + Supervisor: Sonia Nielles-Vallespin Ph. D & Daniel Rueckert Ph. D
+   + 2024 - present 🌐️ Ph. D Student & Research Assistant, Imperial College
+   London. Department of Computing / Visual Information Processing
+        + Supervisor: Sonia Nielles-Vallespin Ph.D. & Daniel Rueckert Ph.D.
         + Diffusion cardiac imaging.
 
    + 2022 - 2024 🌐️ Research Engineer, [iHealth Millennium Institute for
    Intelligent Healthcare Engineer](http://i-health.cl/)
-        + Supervisor: Claudia Prieto Ph. D
+        + Supervisor: Claudia Prieto Ph.D.
         + Reconstruction of parametric maps from undersample MRI using physics
         informed neural networks.
 
    + Summer 2020 🌐️ Tokio, Japan, Sekino Lab, University of Tokyo
-        + Supervisor: Masaki Sekino Ph. D
+        + Supervisor: Masaki Sekino Ph.D.
         + Acquisition and simulation of MR imaging to quantify SPIO
         concentrations in tissue using deep learning.
 
    + 2019 🌐️ [Biomedical Imaging Center](https://centroimagenesbiomedicas.uc.cl)
    PUC
-        + Supervisor: Pablo Irrarazaval, Ph. D
+        + Supervisor: Pablo Irrarazaval, Ph.D.
         + Application of deep learning to improve undersampled MRI.
         + Participation in the fastMRI challenge <https://fastmri.org>.
 
    + Spring 2018 🌐️ [Biomedical Imaging Center](
    https://centroimagenesbiomedicas.uc.cl) PUC
-        + Supervisor: Sergio Uribe, Ph. D
+        + Supervisor: Sergio Uribe, Ph.D.
         + Liver segmentation from MRI using deep learning.
 
 - **Internships**
    + Summer 2021 🌐️ Santiago, [European Southern Observatory (ESO)](
    https://www.eso.org)
-        + Supervisor: Fernando Selman Ph. D
+        + Supervisor: Fernando Selman Ph.D.
         + Develop a deep learning system to identify anomalies in calibration
         frames.
 
