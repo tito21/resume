@@ -10,10 +10,9 @@ MSc. Electrical Engineering & Ph.D. student at Imperial College London
 ✉️<asdibiase@uc.cl> | 📞️+56 9 7758 1497 | 📞️ +44 7777 625590
 
 ::: blur
-Ph.D. student at Imperial College London with an focus in magnetic resonance
-imaging (MRI) and medical imaging. I have experience working on deep learning
-research to accelerate and improve MRI. Currently, I work cardiac diffusion tensor
-imaging.
+Ph.D. student at Imperial College London working in cardiac diffusion tensor
+imaging (cDTI). I have experience working on deep learning
+research to accelerate and improve MRI.
 :::
 
 :::
