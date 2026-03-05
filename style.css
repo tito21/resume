@@ -5,6 +5,9 @@
 --green-munsell: #06a77dff;
 --dark-khaki: #d5c67aff;
 --marigold: #f1a208ff;
+
+--theme-color: var(--green-munsell);
+
 }
 
 body {
@@ -16,7 +19,7 @@ body {
 header {
   text-align: center;
   font-size: 3em;
-  border-bottom: 3px solid var(--green-munsell);
+  border-bottom: 3px solid var(--theme-color);
 }
 
 h1 {
@@ -29,7 +32,7 @@ h2 {
 }
 
 a {
-  color: var(--green-munsell);
+  color: var(--theme-color);
 }
 
 .description {
@@ -54,5 +57,13 @@ a {
   width: -1em;
   margin: 0 0 0 20em;
   padding-left: 1em;
-  border-left: 3px solid var(--green-munsell);
+  border-left: 3px solid var(--theme-color);
+}
+
+.main .work-history {
+  padding-left: 2em;
+}
+
+.mdi {
+  color: var(--theme-color);
 }
