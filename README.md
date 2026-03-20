@@ -25,3 +25,12 @@ a chrome based browser. Running `make all` builds the resume in the formats abov
 # Icons
 
 Icons are from the [Material design icons](https://pictogrammers.com/library/mdi/) library
+
+# License
+
+The code used to generate the document is licensed is under the [MIT License](LICENSE)
+
+The generated documents are licensed under the
+<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+<img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
